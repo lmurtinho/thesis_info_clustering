@@ -15,7 +15,6 @@ The following folders and files are included in this repo. Where applicable, I m
 - `libcluster.c`: C script to create the library of functions to be called with Python.
 - `ng20.csv`: the data from the 20 Newsgroups data set used in the experiments (section 6.1.1).
 - `poisson.csv`: synthetic data set built in accordance with the description from a previous paper on coreset clustering[^5] (section 6.1.3).
-- `rcv1.csv`: the data from the RCV1 data set used in the experiments (section 6.1.2).
 - `Experiments.ipynb`: Jupyter Notebook allowing for the full reproduction of the results presented in the thesis.
 - `libclust.so`: the library of C functions retrieved by Python via C types to run the experiments.
 - `make_ng20_data.py`: the code needed to generate the `ng20.csv` file.
