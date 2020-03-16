@@ -99,6 +99,10 @@ def prob_class_given_word(data, classes):
 
 if __name__ == "__main__":
 
+    # the following files must be in the same folder as the script
+    # they can be downloaded at:
+    # http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/lyrl2004_rcv1v2_README.htm
+
     doc_files = ['lyrl2004_tokens_train.dat',
                  'lyrl2004_tokens_test_pt0.dat',
                  'lyrl2004_tokens_test_pt1.dat',
